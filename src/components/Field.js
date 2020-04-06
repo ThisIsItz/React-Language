@@ -1,6 +1,8 @@
 import React from 'react'
 import LanguageContext from '../contexts/LanguageContext'
 
+
+// Using contextType
 class Field extends React.Component{
     static contextType = LanguageContext
 
